@@ -1,0 +1,165 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	border: 0px 0px 1px 0px solid #68879d;
+}
+
+.logo-img {
+	width: 117px;
+	height: 34px;
+}
+
+.tweet {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	padding: 5px;
+	height: 50px;
+	margin-right: 20px;
+	justify-content: center;
+}
+
+.tweet i {
+	color: #0245b9;
+}
+
+.tweet p {
+	color: #0245b9;
+	font-weight: 600;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+
+.create-post {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #90bed966;
+}
+
+.post-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.post-box textarea {
+	width: 100%;
+	height: 100px;
+	border: 1px solid #e1e8ed;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.area {
+	display: flex;
+	gap: 10px;
+}
+
+.area img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.extras {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#view-post {
+	height: 100%;
+	width: 50%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.feed-text {
+	align-items: left;
+	width: 100%;
+}
+
+/* Card styling */
+
+.card {
+	display: flex;
+	width: 464px;
+	height: fit-content;
+	gap: 10px;
+}
+
+.card-details {
+	width: 100%;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	width: 364px;
+	height: 148px;
+}
+
+.card-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 22px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.pfp {
+	height: 40px;
+	width: 40px;
+	margin-top: 15px;
+}
+
+.user-details {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.actions {
+	display: flex;
+	gap: 10px;
+}
+
+.card-footer {
+	display: flex;
+	gap: 10px;
+}
+
+.liked {
+	color: #e22d4c;
+}
+
+#id {
+	display: none;
+}
+
+.fa-trash:hover {
+	color: red;
+}
+
+.fa-pen-to-square:hover {
+	color: rgb(20, 215, 108);
+}
